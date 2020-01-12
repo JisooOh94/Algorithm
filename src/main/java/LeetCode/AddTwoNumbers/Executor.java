@@ -1,16 +1,18 @@
 package LeetCode.AddTwoNumbers;
 
+import util.PerformanceUtil;
+
 public class Executor {
-	private static LeetCode.AddTwoNumbers.ListNode makeList(int... args) {
-		LeetCode.AddTwoNumbers.ListNode head = null;
-		LeetCode.AddTwoNumbers.ListNode cur = null;
+	private static ListNode makeList(int... args) {
+		ListNode head = null;
+		ListNode cur = null;
 
 		for(int value : args) {
 			if(head == null) {
-				head = new LeetCode.AddTwoNumbers.ListNode(value);
+				head = new ListNode(value);
 				cur = head;
 			} else {
-				cur.next = new LeetCode.AddTwoNumbers.ListNode(value);
+				cur.next = new ListNode(value);
 				cur = cur.next;
 			}
 		}
@@ -18,15 +20,9 @@ public class Executor {
 	}
 
 	public static void main(String[] args) {
-		LeetCode.AddTwoNumbers.ListNode node_1 = makeList(2,4,3);
-		LeetCode.AddTwoNumbers.ListNode node_2 = makeList(5,6,4);
+		ListNode node_1 = makeList(2,4,3);
+		ListNode node_2 = makeList(5,6,4);
 
-		LeetCode.AddTwoNumbers.ListNode result = LeetCode.AddTwoNumbers.Solution.addTwoNumbers(node_1, node_2);
-
-		LeetCode.AddTwoNumbers.ListNode cur = result;
-		while(cur != null) {
-			System.out.print(cur.val + " > ");
-			cur = cur.next;
-		}
+		PerformanceUtil.calcPerformance(new Solution(), node_1, node_2);
 	}
 }
