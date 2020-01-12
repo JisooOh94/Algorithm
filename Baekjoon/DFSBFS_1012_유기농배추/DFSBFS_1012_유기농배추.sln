@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DFSBFS_1012_유기농배추", "DFSBFS_1012_유기농배추\DFSBFS_1012_유기농배추.vcxproj", "{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Debug|x64.ActiveCfg = Debug|x64
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Debug|x64.Build.0 = Debug|x64
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Debug|x86.Build.0 = Debug|Win32
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Release|x64.ActiveCfg = Release|x64
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Release|x64.Build.0 = Release|x64
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Release|x86.ActiveCfg = Release|Win32
+		{0ECF068B-F551-4A51-BAE8-423D0D9E9AB5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {837B4544-F199-4FBC-995C-36684AC33D76}
+	EndGlobalSection
+EndGlobal
