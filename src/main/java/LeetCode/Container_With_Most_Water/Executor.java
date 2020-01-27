@@ -1,4 +1,4 @@
-package LeetCode.StringToInteger;
+package LeetCode.Container_With_Most_Water;
 
 import org.junit.Test;
 import util.PerformanceUtil;
@@ -6,8 +6,7 @@ import util.PerformanceUtil;
 public class Executor {
 	@Test
 	public void test() {
-		String input = "";
-
+		int[] input = new int[]{0,0};
 		PerformanceUtil.calcPerformance(new Solution(), (Object)input);
 	}
 }
