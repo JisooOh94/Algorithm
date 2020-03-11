@@ -1,5 +1,6 @@
 package LeetCode.AddTwoNumbers;
 
+import util.ListNode;
 import util.Predicate;
 
 public class Solution implements Predicate<String, Object> {
