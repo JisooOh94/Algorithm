@@ -4,69 +4,35 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Answer {
-        class Pair {
-            char c;
-            int count;
-            Pair (char c, int count) {
-                this.c = c;
-                this.count = count;
+    public String longestDiverseString(int a, int b, int c) {
+        StringBuilder sb = new StringBuilder();
+        PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> y[1] - x[1]);
+        pq.add(new int[]{0, a});
+        pq.add(new int[]{1, b});
+        pq.add(new int[]{2, c});
+
+        while (true) {
+            int[] most = pq.poll();
+            int N = sb.length();
+            char ch = (char) (most[0] + 'a');
+
+            if (most[1] == 0) break;  // break when largest char reaches zero
+
+            if (N < 2 || (sb.charAt(N - 2) != ch || sb.charAt(N - 1) != ch)) {
+                sb.append(ch);
+                --most[1];
+            } else {  // otherwise, try to add the one with second largest number
+                if (pq.peek()[1] == 0) break;  // break when second largest char reaches zero
+                int[] secondMost = pq.poll();
+
+                ch = (char) (secondMost[0] + 'a');
+                sb.append(ch);
+                --secondMost[1];
+                pq.add(secondMost);
             }
+            pq.add(most);
         }
 
-        char lastChar = 'd';
-        char lastToLastChar = 'd';
-
-        private void updateLastChar(char ch) {
-            this.lastToLastChar = this.lastChar;
-            this.lastChar = ch;
-        }
-
-        public String longestDiverseString(int a, int b, int c) {
-            StringBuilder res = new StringBuilder();
-            PriorityQueue<Pair> pq = new PriorityQueue<>(new Comparator<Pair>(){
-
-                @Override
-                public int compare(Pair p1, Pair p2) {
-                    return -Integer.compare(p1.count, p2.count);
-                }
-
-            });
-
-            if (a > 0) {
-                pq.offer(new Pair('a', a));
-            }
-            if (b > 0) {
-                pq.offer(new Pair('b', b));
-            }
-            if (c > 0) {
-                pq.offer(new Pair('c', c));
-            }
-
-
-            while (!pq.isEmpty()) {
-                Pair p1 = pq.poll();
-                if (lastChar == lastToLastChar && lastChar == p1.c) {
-                    if (pq.isEmpty()) {
-                        return res.toString();
-                    }
-                    Pair p2 = pq.poll();
-                    res.append(p2.c);
-                    updateLastChar(p2.c);
-                    p2.count--;
-                    if (p2.count > 0) {
-                        pq.offer(p2);
-                    }
-
-                } else {
-                    res.append(p1.c);
-                    updateLastChar(p1.c);
-                    p1.count--;
-                }
-                if (p1.count > 0) {
-                    pq.offer(p1);
-                }
-            }
-
-            return res.toString();
-        }
+        return sb.toString();
+    }
 }
