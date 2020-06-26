@@ -40,9 +40,7 @@ public class Solution {
             while(true) {
                 long secondNum = convertStr2Int(S, firstIdx + 1, secondIdx);
                 if(secondNum > intMax) break;
-                if(firstNum == 539834657 && secondNum == 21) {
-                    int a = 0;
-                }
+
                 else if(!(secondIdx < strLength - Math.max(firstIdx + 1, secondIdx - firstIdx))) break;
                 int recursiveCnt = chkFibo(firstNum, secondNum, secondIdx + 1, S, 0);
                 if(recursiveCnt != -1) {
