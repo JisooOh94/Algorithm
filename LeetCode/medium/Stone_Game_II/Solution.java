@@ -15,7 +15,6 @@ public class Solution {
 		int[] piles = new int[]{9,2,2,8,3,7, 7, 7};
 		//int[] piles = new int[]{1,2,3,4,5,6,7, 8};
 		System.out.println(stoneGameII(piles));
-		System.out.println(stoneGameII_2(piles));
 	}
 
 	private static final int[] emptyArr = new int[]{0,0};
@@ -44,34 +43,6 @@ public class Solution {
 	public int stoneGameII(int[] piles) {
 		int[][][][] record = new int[piles.length][2][2][100];
 		int[] result = findBest(0, piles, 0, 1, record);
-		return result[0];
-	}
-
-
-
-
-
-
-
-	private int[] findBest_2(int turn, int[] nrr, int startIdx, int range, int[][][] record) {
-		if(startIdx == (nrr.length -1)) return turn == 0 ? new int[]{nrr[startIdx], 0} : new int[]{0, nrr[startIdx]};
-		else if(startIdx >= nrr.length) return new int[2];
-
-		int[] maxScore = emptyArr;
-		int sum = 0;
-		for(int i = startIdx; i < Math.min(startIdx + range * 2, nrr.length); i++) {
-			sum += nrr[i];
-			int[] curScore = findBest_2((turn + 1) % 2, nrr, i + 1, Math.max(range, i + 1 - startIdx), record);
-			curScore[turn] += sum;
-			if(curScore[turn] > maxScore[turn]) maxScore = curScore;
-		}
-
-		return maxScore;
-	}
-
-	public int stoneGameII_2(int[] piles) {
-		int[][][] record = new int[piles.length][2][2];
-		int[] result = findBest_2(0, piles, 0, 1, record);
 		return result[0];
 	}
 }
