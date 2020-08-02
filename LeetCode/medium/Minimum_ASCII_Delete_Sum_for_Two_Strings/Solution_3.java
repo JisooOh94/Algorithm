@@ -19,7 +19,6 @@ public class Solution_3 {
 		int[][] record = new int[s1.length() + 1][s2.length() + 1];
 
 		int totalScore = 0;
-		for(int i = 0; i < s2.length(); i++) ;
 
 		for(int i = 1; i <= s1.length(); i++) {
 			totalScore += s1.charAt(i - 1);
