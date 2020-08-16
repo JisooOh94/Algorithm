@@ -13,7 +13,6 @@ import org.junit.Test;
 public class Solution {
 	@Test
 	public void execute() {
-//		int[] nums = new int[]{3, 4, 2};
 		int[] nums = new int[]{2, 2, 3, 3, 3, 4};
 		System.out.println(deleteAndEarn(nums));
 	}
