@@ -28,9 +28,9 @@ public class Solution {
 
 		for(int i = 1; i <= range && i <= target; i++) {
 			waySum += recursion(target - i, leftDice - 1, range, record);
+			waySum %= MOD_NUM;
 		}
 
-		waySum %= MOD_NUM;
 		record[leftDice][target] = waySum;
 
 		return waySum;
