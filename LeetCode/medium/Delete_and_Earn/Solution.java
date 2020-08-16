@@ -13,7 +13,7 @@ import org.junit.Test;
 public class Solution {
 	@Test
 	public void execute() {
-		int[] nums = new int[]{2, 2, 3, 3, 3, 4, 6};
+		int[] nums = new int[]{2, 2, 3, 3, 3, 4, 6, 7, 8};
 		System.out.println(deleteAndEarn(nums));
 	}
 	private int recursion(int curIdx, List<int[]> nums, Integer[] record) {
