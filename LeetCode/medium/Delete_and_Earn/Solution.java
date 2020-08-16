@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.Test;
 
 /**
- * Runtime : 3ms(63.25  %    )
+ * Runtime : 3ms(63.25  %     )
  * Memory : 38.9mb(93.80%)
  */
 public class Solution {
