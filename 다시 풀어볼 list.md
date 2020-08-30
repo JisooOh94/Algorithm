@@ -14,3 +14,5 @@
 [764. Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)
 
 [1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
+
+[1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
