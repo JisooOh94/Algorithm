@@ -10,3 +10,9 @@
 [1139. Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/)
 
 [1262. Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
+
+[764. Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)
+
+[1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
+
+[1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
