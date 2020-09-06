@@ -16,3 +16,5 @@
 [1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
 
 [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
+
+[1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
