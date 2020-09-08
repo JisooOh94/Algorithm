@@ -21,5 +21,6 @@ public class Solution {
 		System.out.println(numMatrix.sumRegion(2, 1, 4, 3));
 		System.out.println(numMatrix.sumRegion(1, 1, 2, 2));
 		System.out.println(numMatrix.sumRegion(1, 2, 2, 4));
+		System.out.println(numMatrix.sumRegion(1, 2, 2, 4));
 	}
 }
