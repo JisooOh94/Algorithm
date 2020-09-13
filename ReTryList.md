@@ -24,3 +24,12 @@
 [1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
 
 [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
+
+# Histogram
+[1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+
+[1504. Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
+
+[85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+
+[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
