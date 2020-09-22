@@ -25,6 +25,8 @@
 
 [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
 
+[464. Can I Win](https://leetcode.com/problems/can-i-win/)
+
 # Histogram
 [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 
