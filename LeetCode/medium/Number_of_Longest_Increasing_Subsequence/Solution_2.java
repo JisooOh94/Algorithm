@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.junit.Test;
 import util.PerformanceUtil;
 
-public class Solution {
+public class Solution_2 {
 	@Test
 	public void execute() {
 //		int[] nums = new int[]{1, 3, 5, 4, 7};
@@ -20,30 +20,32 @@ public class Solution {
 	private static final int LEN_IDX = 0;
 	private static final int CNT_IDX = 1;
 
-	private Integer[] recursion(int prev, int cur, int[] nums, Integer[][][] record) {
-		if(cur == nums.length) return new Integer[]{0, 0};
-		else if(prev != -1 && record[cur][prev][LEN_IDX] != null) return record[cur][prev].clone();
+	private Integer[] recursion(Integer prev, int curIdx, int min, int[] nums, Integer[][][] record) {
+		if (curIdx == nums.length) return new Integer[]{0, 0};
+		else if (prev != null && record[curIdx][prev + min][LEN_IDX] != null) return record[curIdx][prev + min].clone();
 
-		Integer[] result = recursion(prev, cur + 1, nums, record);
-		if(prev == -1 || nums[prev] < nums[cur]) {
-			Integer[] selectedResult = recursion(cur, cur+1, nums, record);
+		Integer[] result = recursion(prev, curIdx + 1, min, nums, record);
+		if (prev == null || prev < nums[curIdx]) {
+			Integer[] selectedResult = recursion(nums[curIdx], curIdx + 1, min, nums, record);
 			selectedResult[LEN_IDX] += 1;
 			selectedResult[CNT_IDX] = selectedResult[CNT_IDX] == 0 ? 1 : selectedResult[CNT_IDX];
 
-			if(result[LEN_IDX] == selectedResult[LEN_IDX]) result[CNT_IDX] += selectedResult[CNT_IDX];
-			else if(result[LEN_IDX] < selectedResult[LEN_IDX]) result = selectedResult;
+			if (result[LEN_IDX] == selectedResult[LEN_IDX]) result[CNT_IDX] += selectedResult[CNT_IDX];
+			else if (result[LEN_IDX] < selectedResult[LEN_IDX]) result = selectedResult;
 		}
 
-		if(prev != -1) record[cur][prev] = result;
+		if (prev != null) record[curIdx][prev + min] = result;
 		return result.clone();
 	}
 
 	public int findNumberOfLIS(int[] nums) {
-		if(nums == null || nums.length == 0) return 0;
-		else if(nums.length == 1) return 1;
-		Integer[][][] record = new Integer[nums.length][nums.length][2];
+		if (nums == null || nums.length == 0) return 0;
+		else if (nums.length == 1) return 1;
+		int min = Arrays.stream(nums).min().getAsInt() * -1;
+		int max = Arrays.stream(nums).max().getAsInt() + min;
+		Integer[][][] record = new Integer[nums.length][max + 1][2];
 
-		Integer[] result = recursion(-1, 0, nums, record);
+		Integer[] result = recursion(null, 0, min, nums, record);
 		return result[CNT_IDX];
 	}
 }
