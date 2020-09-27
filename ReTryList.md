@@ -27,6 +27,10 @@
 
 [464. Can I Win](https://leetcode.com/problems/can-i-win/)
 
+[673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+
+[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+
 # Histogram
 [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 
