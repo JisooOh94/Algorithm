@@ -39,3 +39,8 @@
 [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 
 [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+# DFS
+[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
+
+[959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
