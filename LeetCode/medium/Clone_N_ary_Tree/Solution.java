@@ -9,6 +9,14 @@ import util.ListNode;
  * Memory : 40.7mb(97.76%)
  */
 public class Solution {
+	public class ListNode {
+		private int val;
+		private List<ListNode> children;
+
+		public ListNode (int val) {
+			this.val = val;
+		}
+	}
 	private ListNode recurion(ListNode cur) {
 		ListNode copy = new ListNode(cur.val);
 		List<ListNode> childList = copy.children;
