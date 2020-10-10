@@ -1,4 +1,4 @@
-package medium.Nested_List_Weight_Sum;
+package easy.Nested_List_Weight_Sum;
 
 import java.util.List;
 
