@@ -44,3 +44,8 @@
 [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
 
 [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+# Union Find
+[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+
+[261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
