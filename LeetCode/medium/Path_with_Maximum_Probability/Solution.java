@@ -4,8 +4,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * Time Complexity : O(n^2)
+ * Space Complexity : O(n)
  * Runtime : 1156ms(5.02%)
  * Memory : 52.5mb(40.03%)
+ * Subject : Dijkstra
  */
 public class Solution {
 	private int getMaxIdx(boolean[] visited, Double[] maxProb) {
