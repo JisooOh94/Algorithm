@@ -7,6 +7,7 @@ import java.util.Queue;
 /**
  * Runtime : 42ms(79.45%)
  * Memory : 54.9mb(20.26%)
+ * Subject : BellmanFord
  */
 public class Solution_3 {
 	public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
