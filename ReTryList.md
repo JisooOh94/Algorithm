@@ -47,10 +47,15 @@
 
 [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
 
-# Union Find
-[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 
+# Union Find
 [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+
+# Kruskal
+[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+
+[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 
 # Dijkstra
 [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
