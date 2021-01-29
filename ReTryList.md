@@ -66,4 +66,6 @@
 [11657. 타임머신](https://www.acmicpc.net/problem/11657)
 
 # Topological Sort
-[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+
+[310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) 
