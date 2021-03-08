@@ -9,8 +9,8 @@ public class PerformanceUtil {
 
 	public static void calcPerformance(Predicate predicate, Object... params) {
 		beforeTest();
-		System.out.println("# Test Result : " + predicate.test(params));
-		System.out.println("# Performance Test Result : " + afterTest());
+		System.out.println("# 스티커_모으기_2 Result : " + predicate.test(params));
+		System.out.println("# Performance 스티커_모으기_2 Result : " + afterTest());
 	}
 
 

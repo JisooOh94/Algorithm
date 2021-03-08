@@ -69,3 +69,6 @@
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
 [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) 
+
+# Mutli threading
+[1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
