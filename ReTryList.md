@@ -75,3 +75,5 @@
 
 # Greedy
 [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
+
+[1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
