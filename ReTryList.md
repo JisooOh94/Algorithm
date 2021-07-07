@@ -79,3 +79,5 @@
 [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
 
 [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
+
+[1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
