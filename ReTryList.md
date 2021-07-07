@@ -76,4 +76,6 @@
 # Greedy
 [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
 
+[1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
+
 [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
