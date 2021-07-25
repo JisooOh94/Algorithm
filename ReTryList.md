@@ -79,3 +79,6 @@
 [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
 
 [1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
+
+# Binary Search
+[1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
