@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Runtime : 34ms(23.73%)
  * Memory : 56mb(5.76%)
- * Time Complexity : O(n)
+ * Time Complexity : O(nlogn)
  * Subject : greedy
  */
 public class Solution {
