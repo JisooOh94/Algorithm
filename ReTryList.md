@@ -84,5 +84,7 @@
 
 [1798. Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)
 
+[277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)
+
 # Binary Search
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
