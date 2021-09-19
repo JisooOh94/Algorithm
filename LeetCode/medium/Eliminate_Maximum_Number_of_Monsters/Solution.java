@@ -17,20 +17,19 @@ public class Solution {
 		int[] speed = new int[]{1,1,1,1};
 		System.out.println(eliminateMaximum(dist, speed));
 	}
+
 	public int eliminateMaximum(int[] dist, int[] speed) {
 		PriorityQueue<Integer> queue = new PriorityQueue<>();
 		for(int i = 0; i < dist.length; i++) {
-			int left = dist[i] / speed[i];
-			if(dist[i] % speed[i] != 0) left += 1;
-			queue.offer(left);
+			queue.offer(dist[i] / speed[i] + (dist[i] % speed[i] != 0 ? 1 : 0));
 		}
 
 		int spendCost = 0;
 		while(!queue.isEmpty()) {
-			int left = queue.poll();
-			if(left <= spendCost) return spendCost;
+			if(queue.poll() <= spendCost) return spendCost;
 			spendCost++;
 		}
+
 		return dist.length;
 	}
 }
