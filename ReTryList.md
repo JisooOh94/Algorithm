@@ -88,5 +88,7 @@
 
 [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
 
+[1864. Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+
 # Binary Search
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
