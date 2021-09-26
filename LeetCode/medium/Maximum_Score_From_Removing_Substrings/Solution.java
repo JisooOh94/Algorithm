@@ -16,14 +16,9 @@ public class Solution {
 		System.out.println(maximumGain(s, x, y));
 	}
 	public int maximumGain(String s, int x, int y) {
-		int openStack = 0;
-		int closeStack = 0;
-		int openScore = Math.max(x, y);
-		int closeScore = Math.min(x, y);
-		char openChar = x > y ? 'a' : 'b';
-		char closeChar = x > y ? 'b' : 'a';
-
-		int gain = 0;
+		int openStack = 0, closeStack = 0, gain = 0;
+		int openScore = Math.max(x, y), closeScore = Math.min(x, y);
+		char openChar = x > y ? 'a' : 'b', closeChar = x > y ? 'b' : 'a';
 
 		for(char ch : s.toCharArray()) {
 			if(ch == openChar) {
@@ -41,7 +36,6 @@ public class Solution {
 				closeStack = 0;
 			}
 		}
-
 		gain += Math.min(openStack, closeStack) * closeScore;
 
 		return gain;
