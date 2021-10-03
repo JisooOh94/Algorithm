@@ -45,7 +45,7 @@
 
 [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
 
-[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite	/)
 
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 
@@ -93,6 +93,8 @@
 [1589. Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)
 
 [1705. Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
+
+[1888. Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/	)
 
 # Binary Search
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
