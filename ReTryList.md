@@ -100,6 +100,8 @@
 
 [581. Shortest Unsorted Continuous Subarray](581. Shortest Unsorted Continuous Subarray)
 
+[1648. Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
+
 # Binary Search
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
