@@ -110,3 +110,5 @@
 
 # Graph
 [2077. Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)
+
+[1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/)
