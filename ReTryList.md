@@ -45,9 +45,12 @@
 
 [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
 
-[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite	/)
+[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
 
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+
+# BFS
+[1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)
 
 # Union Find
 [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
@@ -59,6 +62,8 @@
 
 # Dijkstra
 [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+
+[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
 # Bellman-Ford
 [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
@@ -98,7 +103,7 @@
 
 [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
-[581. Shortest Unsorted Continuous Subarray](581. Shortest Unsorted Continuous Subarray)
+[581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 
 [1648. Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
 
