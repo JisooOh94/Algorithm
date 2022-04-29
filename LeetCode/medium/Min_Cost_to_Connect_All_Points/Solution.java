@@ -7,6 +7,7 @@ import org.junit.Test;
 /**
  * Runtime : 79ms(74.29%)
  * Memory : 61mb(53.47%)
+ * Subject : kruskal
  */
 public class Solution {
 	@Test
