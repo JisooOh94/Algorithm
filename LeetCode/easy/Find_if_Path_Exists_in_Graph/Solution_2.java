@@ -2,17 +2,18 @@ package easy.Find_if_Path_Exists_in_Graph;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
 /**
- * Runtime : 103ms(75.17%)
- * Memory : 190.4mb(54.10%)
+ * Runtime : 94ms(78.06%)
+ * Memory : 196.8mb(43.78%)
  * Subject : BFS
  * Time Complexity : O(E^2)
  */
-public class Solution {
+public class Solution_2 {
     @Test
     public void execute() {
         int n = 3;
@@ -27,15 +28,16 @@ public class Solution {
     }
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         if(n == 1) return true;
-        List<Integer>[] edgeList = new LinkedList[n];
+
+        List<Integer>[] edgeList = new ArrayList[n];
         boolean[] visited = new boolean[n];
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(source);
         visited[source] = true;
 
-        for(int i = 0; i < n; i++) edgeList[i] = new LinkedList<>();
-
         for(int[] edge : edges) {
+            if(edgeList[edge[0]] == null) edgeList[edge[0]] = new ArrayList<>();
+            if(edgeList[edge[1]] == null) edgeList[edge[1]] = new ArrayList<>();
             edgeList[edge[0]].add(edge[1]);
             edgeList[edge[1]].add(edge[0]);
         }
