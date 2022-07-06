@@ -16,3 +16,7 @@
   * memorize visited vertices reachability and reuse
   * handle cyclic case
     * using visited arr or union find
+* Bottom-up DFS + minus count
+  * make parent list of each vertices
+  * add parent's minus count when vertex's minus count == child cnt
+* Topological sort(Optimal)
