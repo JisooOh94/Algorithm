@@ -55,6 +55,8 @@
 # Union Find
 [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
 
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+
 # Kruskal
 [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
 
