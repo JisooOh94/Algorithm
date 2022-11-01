@@ -58,7 +58,7 @@ public class Kruskal {
       if(fromGroup != toGroup) {
         minSpanningTree.add(edge);
         union(fromGroup, toGroup, group, rank);
-        if(minSpanningTree.size() == n) break;
+        if(minSpanningTree.size() == n - 1) break;
       }
     }
 
