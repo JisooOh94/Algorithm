@@ -1,6 +1,6 @@
 package easy.Two_Sum;
 
-public class Solution {
+public class Solution_1 {
 	public int[] twoSum(int[] nums, int target) {
 		int[] needNum = new int[nums.length];
 
